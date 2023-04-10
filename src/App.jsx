@@ -5,19 +5,12 @@ import Home from "./components/Home";
 import "./components/Navbar";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
-
-// #1E44B9 -- primary 
-// #FF7F65 -- orange
-// #C1C2FF -- purple
-// #FFFADE -- cream 
-// #474555 -- black 
+import Contact from "./components/Contact";
 
 function App() {
-
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
-        console.log(entry);
         if (entry.isIntersecting) {
           entry.target.classList.add("show");
         } else {
@@ -37,6 +30,7 @@ function App() {
       <About />
       <Experience />
       <Work /> 
+      <Contact />
     </>
   );
 }
