@@ -60,6 +60,17 @@ const Navbar = () => {
         >
           Work
         </Link>
+        <Link
+          className="px-3 py-2 text-cream hover:text-orange cursor-pointer"
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={0}
+        >
+          Contact
+        </Link>
       </div>
       <div onClick={handleClick} className="md:hidden z-10 cursor-pointer">
         <BsList className="w-6 h-6" />
@@ -128,6 +139,20 @@ const Navbar = () => {
               onClick={handleClick}
             >
               Work
+            </Link>
+          </li>
+          <li>
+            <Link activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={0}
+              href="#"
+              className="border-b-2 border-blue-400 px-3 py-2 text-cream hover:text-orange"
+              onClick={handleClick}
+            >
+              Contact
             </Link>
           </li>
         </ul>
