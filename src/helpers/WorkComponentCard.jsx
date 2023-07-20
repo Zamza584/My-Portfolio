@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WorkComponentCard = ({ image, url, name }) => {
+const WorkComponentCard = ({ image, url, name, trello }) => {
     return (
         <div
             style={{ backgroundImage: `url(${image})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: "center" }}
@@ -11,6 +11,7 @@ const WorkComponentCard = ({ image, url, name }) => {
                 <span className="text-2xl font-extrabold text-white tracking-wider z-10">
                     {name}
                 </span>
+                {trello}
                 <div className="pt-8 text-center">
                     <a href={url}>
                         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg ">
