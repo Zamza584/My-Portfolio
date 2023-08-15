@@ -1,0 +1,17 @@
+{
+  "home": "Home",
+  "about": "About Me",
+  "experience": "Experience",
+  "work": "Work",
+  "contact": "Contact",
+  "intro-1": "Hi my name is",
+  "intro-2": "I'm a Full Stack Developer",
+  "btn-intro": "View Work",
+  "about-1": "I am a web developer who has experience creating responsive websites.",
+  "about-2": "I am creative and productive and have great discipline to build any form of web page. I love to stay in touch with new technologies and find ways to work in a very efficient way.",
+  "work-trello": "Trello Site",
+  "work-btn": "Visit Website",
+  "label-email": "Email",
+  "label-message": "Send me a message",
+  "contact-btn": "Send Message"
+}

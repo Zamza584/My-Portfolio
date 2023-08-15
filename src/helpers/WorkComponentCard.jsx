@@ -1,6 +1,10 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
+
 
 const WorkComponentCard = ({ image, url, name, trello }) => {
+    const { t } = useTranslation();
+    
     return (
         <div
             style={{ backgroundImage: `url(${image})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: "center" }}
@@ -15,7 +19,7 @@ const WorkComponentCard = ({ image, url, name, trello }) => {
                 <div className="pt-8 text-center">
                     <a href={url}>
                         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg ">
-                            Visit Website
+                            {t("work-btn")}
                         </button>
                     </a>
                 </div>

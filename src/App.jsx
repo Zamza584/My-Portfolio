@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 
+
 function App() {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {

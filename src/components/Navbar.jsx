@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { BsList } from "react-icons/bs";
 import { Link } from "react-scroll";
+import { useTranslation } from 'react-i18next'
 
 const Navbar = () => {
   const [Nav, setNav] = useState(false);
   const handleClick = () => setNav(!Nav);
+  const { t } = useTranslation();
 
   return (
     <nav className="bg-primary border-b-[0.2px] border-purple p-6 flex fixed items-center justify-between">
@@ -25,7 +27,7 @@ const Navbar = () => {
           duration={500}
           offset={0}
         >
-          Home
+          {t("home")}
         </Link>
         <Link
           className="px-3 py-2 text-cream hover:text-orange cursor-pointer"
@@ -36,7 +38,7 @@ const Navbar = () => {
           duration={500}
           offset={0}
         >
-          About Me
+          {t("about")}
         </Link>
         <Link
           className="px-3 py-2 text-cream hover:text-orange cursor-pointer"
@@ -47,7 +49,7 @@ const Navbar = () => {
           duration={500}
           offset={0}
         >
-          Experience
+          {t("experience")}
         </Link>
         <Link
           className="px-3 py-2 text-cream hover:text-orange cursor-pointer"
@@ -58,7 +60,7 @@ const Navbar = () => {
           duration={500}
           offset={0}
         >
-          Work
+          {t("work")}
         </Link>
         <Link
           className="px-3 py-2 text-cream hover:text-orange cursor-pointer"
@@ -69,7 +71,7 @@ const Navbar = () => {
           duration={500}
           offset={0}
         >
-          Contact
+          {t("contact")}
         </Link>
       </div>
       <div onClick={handleClick} className="md:hidden z-10 cursor-pointer">
@@ -82,7 +84,7 @@ const Navbar = () => {
           Nav
             ? "bg-primary mobile-menu flex flex-col items-center justify-center top-0 left-0 w-full h-screen absolute md:hidden translate-x-0 duration-100"
             : "hidden"
-        } 
+        }
       >
         <ul className="space-y-7">
           <li>
@@ -96,7 +98,7 @@ const Navbar = () => {
               className="border-b-2 border-blue-400 px-3 py-2 text-cream hover:text-orange"
               onClick={handleClick}
             >
-              Home
+              {t("home")}
             </Link>
           </li>
           <li>
@@ -110,7 +112,7 @@ const Navbar = () => {
               className="border-b-2 border-blue-400 px-3 py-2 text-cream hover:text-orange"
               onClick={handleClick}
             >
-              About Me
+              {t("about")}
             </Link>
           </li>
           <li>
@@ -124,7 +126,7 @@ const Navbar = () => {
               className="border-b-2 border-blue-400 px-3 py-2 text-cream hover:text-orange"
               onClick={handleClick}
             >
-              Experience
+              {t("experience")}
             </Link>
           </li>
           <li>
@@ -138,7 +140,7 @@ const Navbar = () => {
               className="border-b-2 border-blue-400 px-3 py-2 text-cream hover:text-orange"
               onClick={handleClick}
             >
-              Work
+              {t("work")}
             </Link>
           </li>
           <li>
@@ -152,7 +154,7 @@ const Navbar = () => {
               className="border-b-2 border-blue-400 px-3 py-2 text-cream hover:text-orange"
               onClick={handleClick}
             >
-              Contact
+              {t("contact")}
             </Link>
           </li>
         </ul>

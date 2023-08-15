@@ -1,0 +1,17 @@
+{
+    "home": "Introducción",
+    "about": "Sobre Mi",
+    "experience": "Experiencia",
+    "work": "Trabajos",
+    "contact": "Contacto",
+    "intro-1": "Hola mi nombre es",
+    "intro-2": "Soy un Desarrollador Full Stack",
+    "btn-intro": "Ver Trabajo",
+    "about-1": "Soy un dessarrollador con experiencia creando paginas web.",
+    "about-2": "Soy creativo y productivo en lo que hago, soy disciplinado en lo que hago. Soy una persona que siempre se esfuerza por estar actualizado con las tecnologias nuevas y asi buscar la mejor manera de trabajar muy productivamente.",
+    "work-trello": "Sitio Trello",
+    "work-btn": "Visita Pagina",
+    "label-email": "Correo",
+    "label-message": "Envia un mensaje aqui",
+    "contact-btn": "Enviar Mensaje"
+}
