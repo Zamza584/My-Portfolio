@@ -17,7 +17,7 @@ const WorkComponentCard = ({ image, url, name, trello }) => {
                 </span>
                 {trello}
                 <div className="pt-8 text-center">
-                    <a href={url}>
+                    <a href={url} target="_blank" >
                         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg ">
                             {t("work-btn")}
                         </button>
