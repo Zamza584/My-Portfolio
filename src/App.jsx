@@ -6,6 +6,7 @@ import "./components/Navbar";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -30,8 +31,9 @@ function App() {
       <Home />
       <About />
       <Experience />
-      <Work /> 
+      <Work />
       <Contact />
+      <Footer />
     </>
   );
 }

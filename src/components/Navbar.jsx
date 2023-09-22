@@ -14,7 +14,7 @@ const Navbar = () => {
         spy={true}
         smooth={true}
         duration={500}>
-        Portfolio
+        Manuel
       </Link>
 
       <div className="hidden md:flex">

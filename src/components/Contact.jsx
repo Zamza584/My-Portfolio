@@ -41,7 +41,7 @@ const Contact = () => {
                     <textarea className='resize-none outline-none rounded-md text-black p-3' name="message" id="message" cols="30" rows="10" onChange={event => setFormattedContent(event.target.value)} value={content} required /><p className='text-white mt-4'>{wordCount}/{limit}</p>
                     <button type='submit' className="bg-blue-500 hover:bg-blue-700 text-white font-bold w-2/4 m-auto py-2 px-4 my-6 rounded">
                         {t("contact-btn")}
-                    </button>
+                    </button>   
                 </form>
             </div>
         </div>
