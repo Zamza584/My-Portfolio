@@ -1,9 +1,9 @@
 import React from 'react'
-import { FaCss3, FaReact, FaPython, FaJava, FaSass } from 'react-icons/fa'
-import { SiTailwindcss, SiPhp } from "react-icons/si";
-import { SiJavascript } from "react-icons/si";
+import { FaCss3, FaReact, FaPython, FaSass, } from 'react-icons/fa'
+import { SiTailwindcss, SiJavascript, SiPhp, SiNextdotjs, SiBlazor } from "react-icons/si";
 import { useTranslation } from 'react-i18next'
 import javaIcon from '../images/java.png';
+import csharp from '../images/c-sharp.png'
 
 
 const Experience = () => {
@@ -24,17 +24,35 @@ const Experience = () => {
                             <p className='pt-2 text-center'>React</p>
                         </div>
                         <div className='bg-gray-700 border border-gray-400/20 rounded-xl shadow-lg p-2 hover:scale-105 duration-500'>
-                            <i><SiTailwindcss className='mx-auto w-20 h-20 text-[#06b6d4]' /></i>
-                            <p className='pt-2 text-center'>Tailwind</p>
+                            <i><SiNextdotjs className='mx-auto w-20 h-20 text-[#000000]' /></i>
+                            <p className='pt-2 text-center'>NEXT JS</p>
                         </div>
+                        <div className='bg-gray-700 border border-gray-400/20 rounded-xl shadow-lg p-2 hover:scale-105 duration-500'>
+                            <i><img className='mx-auto w-20 h-20' src={csharp} alt="java" /></i>
+                            <p className='pt-2 text-center'>C#</p>
+                        </div>
+                        <div className='bg-gray-700 border border-gray-400/20 rounded-xl shadow-lg p-2 hover:scale-105 duration-500'>
+                            <i><SiBlazor className='mx-auto w-20 h-20 text-[#5C2D91]' /></i>
+                            <p className='pt-2 text-center'>BLAZOR</p>
+                        </div>
+
                         <div className='bg-gray-700 border border-gray-400/20 rounded-xl shadow-lg p-2 hover:scale-105 duration-500'>
                             <i><SiPhp className='mx-auto w-20 h-20 text-[#777bb3]' /></i>
                             <p className='pt-2 text-center'>PHP</p>
                         </div>
                         <div className='bg-gray-700 border border-gray-400/20 rounded-xl shadow-lg p-2 hover:scale-105 duration-500'>
+                            <i><FaCss3 className='mx-auto w-20 h-20 text-[#2965f1]' /></i>
+                            <p className='pt-2 text-center'>CSS</p>
+                        </div>
+                        <div className='bg-gray-700 border border-gray-400/20 rounded-xl shadow-lg p-2 hover:scale-105 duration-500'>
                             <i><FaSass className='mx-auto w-20 h-20 text-[#CD6799]' /></i>
                             <p className='pt-2 text-center'>Sass</p>
                         </div>
+                        <div className='bg-gray-700 border border-gray-400/20 rounded-xl shadow-lg p-2 hover:scale-105 duration-500'>
+                            <i><SiTailwindcss className='mx-auto w-20 h-20 text-[#06b6d4]' /></i>
+                            <p className='pt-2 text-center'>Tailwind</p>
+                        </div>
+
                         <div className='bg-gray-700 border border-gray-400/20 rounded-xl shadow-lg p-2 hover:scale-105 duration-500'>
                             <i><FaPython className='mx-auto w-20 h-20 text-[#ffffff]' /></i>
                             <p className='pt-2 text-center'>Python</p>
@@ -43,10 +61,7 @@ const Experience = () => {
                             <i><img className='mx-auto w-20 h-20' src={javaIcon} alt="java" /></i>
                             <p className='pt-2 text-center'>Java</p>
                         </div>
-                        <div className='bg-gray-700 border border-gray-400/20 rounded-xl shadow-lg p-2 hover:scale-105 duration-500'>
-                            <i><FaCss3 className='mx-auto w-20 h-20 text-[#2965f1]' /></i>
-                            <p className='pt-2 text-center'>CSS</p>
-                        </div>
+
                     </div>
                 </div>
             </div>
