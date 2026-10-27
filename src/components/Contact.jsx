@@ -33,7 +33,7 @@ const Contact = () => {
     return (
         <div name="contact" >
             <div className="h-fit md:h-screen w-full bg-primary">
-                <form className='hide text-black flex flex-col p-7 md:w-[600px] h-full justify-center mx-auto' action="/" method='POST'>
+                <form className='hide text-black flex flex-col p-7 md:w-[600px] h-full justify-center mx-auto' action="https://formsubmit.co/mzamalloa97@gmail.com" method='POST'>
                     <h1 className='text-white text-3xl border-b-4 border-purple max-w-fit mb-5'>{t("contact")}</h1>
                     <label className='text-white mb-1 mt6' htmlFor="email">{t("label-email")}</label>
                     <input className='outline-none rounded-md py-2 px-3' type="email" id='email' name='email' required />

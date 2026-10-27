@@ -1,4 +1,3 @@
-import React from 'react';
 import sleepoutside from "../images/sleepoutsidesite.png"
 import fanabase from "../images/fanabase.png"
 import musicSite from "../images/musicwebsite.png";
@@ -15,9 +14,9 @@ const Work = () => {
                 <h1 className='text-primary text-3xl border-b-4 border-purple max-w-fit'>{t("work")}</h1>
                 <div className='mt-10 hide flex flex-row w-full gap-5 flex-wrap'>
                     <WorkComponentCard image={fanabase} url={"https://moviefanabase.netlify.app/"} name={"Movie Fanabase"} />
-                    <WorkComponentCard image={musicSite} url={"https://music-discovery-app.cyclic.cloud/"} name={"Music Discovery"} />
-                    <WorkComponentCard image={phpmotors} url={"https://phpmotors-byui.000webhostapp.com/index.php"} name={"Motors site"} />
                     <WorkComponentCard image={sleepoutside} url={"https://heartfelt-lily-f08aa2.netlify.app/"} name={"SleepOutside Site"} trello={<div className='text-orange'><a href="https://trello.com/b/fWLRGD50/wdd330-teamtooawesome">{t("work-trello")}</a></div>} />
+                    <WorkComponentCard image={"papavecos"} url={""} name={"Papavecos"} />
+                    <WorkComponentCard image={"Foodtracker"} url={""} name={"Food Tracker"} />
                 </div>
             </div>
         </div>
