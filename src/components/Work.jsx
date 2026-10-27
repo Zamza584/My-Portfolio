@@ -15,8 +15,8 @@ const Work = () => {
                 <div className='mt-10 hide flex flex-row w-full gap-5 flex-wrap'>
                     <WorkComponentCard image={fanabase} url={"https://moviefanabase.netlify.app/"} name={"Movie Fanabase"} />
                     <WorkComponentCard image={sleepoutside} url={"https://heartfelt-lily-f08aa2.netlify.app/"} name={"SleepOutside Site"} trello={<div className='text-orange'><a href="https://trello.com/b/fWLRGD50/wdd330-teamtooawesome">{t("work-trello")}</a></div>} />
-                    <WorkComponentCard image={"papavecos"} url={""} name={"Papavecos"} />
-                    <WorkComponentCard image={"Foodtracker"} url={""} name={"Food Tracker"} />
+                    {/* <WorkComponentCard image={"papavecos"} url={""} name={"Papavecos"} />
+                    <WorkComponentCard image={"Foodtracker"} url={""} name={"Food Tracker"} /> */}
                 </div>
             </div>
         </div>
